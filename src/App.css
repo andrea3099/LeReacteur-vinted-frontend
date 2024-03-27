@@ -1,0 +1,36 @@
+/* MAIN  */
+
+.offers-container {
+  /* border: solid 2px blue; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 1280px;
+  margin: 30px auto auto;
+}
+
+.offer-container {
+  /* border: solid 1px red; */
+  width: 235px;
+  cursor: pointer;
+  padding: 0 6px 16px;
+}
+.offer-link {
+  text-decoration: none;
+  color: black;
+}
+.owner-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.owner-container > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+img {
+  width: 235px;
+  height: 360px;
+  object-fit: cover;
+}
