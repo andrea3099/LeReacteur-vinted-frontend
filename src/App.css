@@ -345,7 +345,13 @@ input {
   margin: 20px 0;
   box-shadow: 0 0 2px gray;
 }
-
+.container-preview {
+  height: 150px;
+}
+.preview-picture {
+  object-fit: cover;
+  height: 100%;
+}
 .input-text {
   display: flex;
   justify-content: space-between;

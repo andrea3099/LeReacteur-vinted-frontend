@@ -47,6 +47,15 @@ const Publish = ({ token, ownerId }) => {
         <h2>Vends ton article</h2>
         <form onSubmit={handleSubmit}>
           <div className="publish-picture ">
+            {picture && (
+              <div className="container-preview">
+                <img
+                  className="preview-picture"
+                  src={URL.createObjectURL(picture)}
+                  alt="produit"
+                />
+              </div>
+            )}
             <div className="container-picture">
               <div className="container-ajout-picture">
                 <label htmlFor="file" className="label-picture">
