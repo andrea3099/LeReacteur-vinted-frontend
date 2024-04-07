@@ -33,7 +33,6 @@ const Login = ({ setToken }) => {
           } catch (error) {
             console.log(error.response);
           }
-          setToken(data.token);
         }}
       >
         <input
